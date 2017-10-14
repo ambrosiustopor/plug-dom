@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Plugin prototype</title>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	
+	<script src="scripts/lib/at/Timer-1.1.0.js"></script>
+	<script src="scripts/main.js"></script>
+
+</head>
+
+<body>
+
+	<fieldset>
+		<legend>App</legend>
+		<button data-action="app-ready">Emit ready state</button>
+	</fieldset>
+
+	<fieldset>
+		<legend>Ticker</legend>
+		<button data-action="start-timer">Start timer</button>
+		<button data-action="stop-timer">Stop timer</button>
+	</fieldset>
+
+	<fieldset>
+		<legend>Plugin 1</legend>
+		<button data-action="register:plugin-1">Register Plugin 1</button>
+		<button data-action="unregister:plugin-1">Unregister Plugin 1</button>
+	</fieldset>
+
+	<fieldset>
+		<legend>Plugin 2</legend>
+		<button data-action="register:plugin-2">Register Plugin 2</button>
+		<button data-action="unregister:plugin-2">Unregister Plugin 2</button>
+	</fieldset>
+
+	<div id="app-logger"></div>
+
+	<div id="plugin-1-slot-1" style="display:inline-block; border: 1px dashed red; padding: 16px;"></div>
+	<div id="plugin-2-slot-1" style="display:inline-block; border: 1px dashed green; padding: 16px;"></div>
+
+</body>
+
+</html>

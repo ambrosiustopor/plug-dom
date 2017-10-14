@@ -1,0 +1,27 @@
+{
+  "name": "plug-dom",
+  "description": "Plugin prototype",
+  "authors": [
+    "Ambrosius Topor"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "plugin",
+    "prototype"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2"
+  },
+  "resolutions": {
+    "jquery": "2"
+  }
+}
